@@ -1,0 +1,29 @@
+[debug] [2020-06-25T14:52:14.670Z] ----------------------------------------------------------------------
+[debug] [2020-06-25T14:52:14.672Z] Command:       /usr/local/Cellar/node/12.6.0/bin/node /usr/local/bin/firebase serve
+[debug] [2020-06-25T14:52:14.672Z] CLI Version:   6.1.1
+[debug] [2020-06-25T14:52:14.672Z] Platform:      darwin
+[debug] [2020-06-25T14:52:14.672Z] Node Version:  v12.6.0
+[debug] [2020-06-25T14:52:14.678Z] Time:          Thu Jun 25 2020 10:52:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-06-25T14:52:14.679Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-06-25T14:52:14.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-25T14:52:14.692Z] > authorizing via signed-in user
+[debug] [2020-06-25T14:52:14.692Z] [iam] checking project tkuagency for permissions ["firebase.projects.get"]
+[debug] [2020-06-25T14:52:14.693Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-25T14:52:14.694Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-25T14:52:14.862Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-25T14:52:14.871Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tkuagency:testIamPermissions  
+
+[debug] [2020-06-25T14:52:15.159Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-25T14:52:15.159Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tkuagency  
+ 
+[debug] [2020-06-25T14:52:15.480Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ianpetrarca/Documents/GitHub/tku'...
+[info] 
+[debug] [2020-06-25T14:52:15.481Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/890600089014/clients/_:getWebAppConfig  
+ 
+[debug] [2020-06-25T14:52:16.070Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
